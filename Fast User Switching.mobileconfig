@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadDisplayName</key>
+	<string>Fast User Switching</string>
+	<key>PayloadIdentifier</key>
+	<string>de.bjoernalbers.fast-user-switching</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadUUID</key>
+	<string>F917B0BD-9452-41F6-AE14-99D089FABEA2</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>TargetDeviceType</key>
+	<integer>5</integer>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadType</key>
+			<string>com.apple.controlcenter</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.controlcenter.57EBEF9E-E568-411E-AE27-500AD98C94F4</string>
+			<key>PayloadUUID</key>
+			<string>60898C70-17E6-4BA6-AFDF-E6F5C4520EEC</string>
+			<key>UserSwitcher</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>PayloadType</key>
+			<string>.GlobalPreferences</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>.GlobalPreferences.71DE1486-60BC-4CB9-890D-AD50A772890D</string>
+			<key>PayloadUUID</key>
+			<string>4EF9572F-B860-44C0-B628-53F212B77F1F</string>
+			<key>MultipleSessionEnabled</key>
+			<true/>
+			<key>userMenuExtraStyle</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+</dict>
+</plist>
